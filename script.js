@@ -21,6 +21,14 @@ toggy.onclick = function () {
   }
 };
 
+// Alternative solution:
+const toggy = document.querySelector('.toggler');
+const toggContainer = document.querySelector('.togglee');
+
+toggy.onclick = function () {
+  toggContainer.classList.toggle('extra');
+};
+
 // Question 3
 
 const dropdown = document.querySelector('select');
